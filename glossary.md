@@ -32,6 +32,12 @@ See Edit+.
 ## Edit+
 JavaScript-powered user friendly authoring environment.
 
+## Keyword
+A pseudo-variable surrounded by percent symbols. Used in Paint Layouts and Design Files to display asset properties and other things such as site info or server variables. For example: `%asset_thumbnail%` or `%globals_server_referer%`.
+
+## Keyword Modifier
+A way to apply a function to a keyword. Can be used as tests in conditional statements or to change the way an asset property is formatted. Derived from PHP functions.
+
 ## Metadata Schema
 Think "custom fields". Metadata schemas are applied to assets to supplement their native fields.
 
