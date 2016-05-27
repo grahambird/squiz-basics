@@ -3,7 +3,7 @@
 Let's say we have two assets on a website about road bikes.
 
 * Asset #123 is an article about new bikes.
-* Asset #456 is an asset that represents the Cannondale brand.
+* Asset #456 represents the Cannondale brand.
 
 ## Accessing another asset via a metadata field value
 
@@ -24,4 +24,18 @@ The current asset is 123
 This asset's name is New road bikes revealed
 The value of the brand field is 456
 The name of the related asset is Cannondale
+```
+
+## Accessing another asset by id
+
+It is also possible to access the properties of another asset if you know its id.
+
+```
+%globals_asset_attribute_name:456%
+```
+
+prints:
+
+```
+Cannondale
 ```
