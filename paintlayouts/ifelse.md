@@ -16,9 +16,9 @@ You are not logged in
 ```
 
 # If statement with condition
-Displays "Hi Steve" if the asset's name is "Steve".
+Displays "I am Steve" if the asset's name is "Steve".
 ```
 %begin_asset_attribute_name^eq:Steve%
-Hi Steve
+I am Steve
 %begin_asset_attribute_name^eq:Steve%
 ```
